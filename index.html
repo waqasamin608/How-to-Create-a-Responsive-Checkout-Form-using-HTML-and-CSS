@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+    <style>
+    
+    .main {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+    
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+.order-info, .checkout-form {
+    width: 50%;
+    padding: 10px;
+}
+.checkout-form {
+    background-color: #614CCD;
+}
+.checkout-form h2 {
+    color: white;
+}
+
+.order-info img {
+    width: 100%;
+}
+
+.checkout-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.checkout-form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6DD1C8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-form button:hover {
+    background-color: #0056b3;
+}
+
+.card-selection {
+    display: block;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.card-selection p {
+    margin-right: 10px;
+}
+
+.card-selection select {
+    padding: 10px;
+    
+    border-top: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    appearance: none;
+    background: url('dropdown-arrow.png') no-repeat right;
+    background-size: 12px;
+    
+    background-color: #F9BCE1;
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .order-info, .checkout-form {
+        width: 100%;
+    }
+}
+
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="container">
+<div class="order-info">
+        <h2>Order Summary</h2>
+        <img src="https://dl.dropboxusercontent.com/s/sim84r2xfedj99n/%24_32.JPG" class="full-width">
+        <p>Nike Free Run 3.0 Women</p>
+        <p>Color: Grey/Orange, Size: 10.5</p>
+        
+        <h3 class="price">$500</h3>
+    </div>
+        
+     <div class="checkout-form">
+    <h2>Checkout</h2>
+    <form>
+    
+    <div class="card-selection">
+    <p>Select Card Type:</p>
+    <select id="card-type">
+        <option value="american-express">American Express</option>
+        <option value="visa">Visa Card</option>
+        <option value="paypal">PayPal</option>
+    </select>
+</div>
+
+        <input type="text" id="card-number" placeholder="Card Number" required>
+        <input type="text" id="card-name" placeholder="Cardholder Name">
+        <input type="text" id="expiry-date" placeholder="Expiry Date">
+        <input type="text" id="cvv" placeholder="CVV">
+        
+        <button type="submit">Checkout</button>
+        
+    </form>
+</div>
+</div></div>
+
+<div>
+
+<h2>Go to Link For More Related Content:<a href="https://forfrontend.com/">ForFrontend</a></h2>
+<h3>If you want learn full article on How to Create a Responsive Checkout Form using HTML and CSS. Click here the fist link:</h3>
+ <ul> 
+  <li><a href="how-to-create-a-responsive-checkout-form-using-html-and-css">Responsive Checkout Form</a></li>
+  <li><a href="https://forfrontend.com/css-strikethrough/">CSS Strikethrough
+
+</a></li>
+  <li><a href="https://forfrontend.com/text-hover-effect-css/">Examples of Text Hover Effect CSS
+
+</a></li>
+</ul>
+ </div>
+ 
+    <script>
+   
+  </script>
+</body>
+</html>
